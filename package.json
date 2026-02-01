@@ -1,0 +1,30 @@
+{
+  "name": "url-shortening",
+  "version": "1.0.0",
+  "description": "url shortening service",
+  "homepage": "https://github.com/GautamGunecha/url-shortening#readme",
+  "bugs": {
+    "url": "https://github.com/GautamGunecha/url-shortening/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GautamGunecha/url-shortening.git"
+  },
+  "license": "MIT",
+  "author": "Gautam Gunecha",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "prettier": "^3.8.1",
+    "turbo": "^2.8.1",
+    "typescript": "^5.9.3"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
